@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Cabinent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        <!--header with image and website title-->
+        <img src="crochet-clipart-md-2406096188.png" alt="Yarn ball" width="50px"/>
+        Pattern Cabinent
+        <img src="561-5618353_file-cabinet-clip-art-829173422.png" alt="File cabinent" width="50px"/>
+    </h1>
+
+    <div class="Disclaimer">All patterns have been tested and rated by Raina Stofft</div>
+
+    <!--handles the left panel and main panel of website-->
+    <div class="container">
+        <!--left panel of website that has sorting tabs for patterns-->
+        <aside class="left">
+            <div class="left-title">Filters</div>
+                <div class ="medium-header"> Medium </div>
+                <div class="tabs" data-filter="medium" data-value="Crochet">Crochet</div>
+                <div class="tabs" data-filter="medium" data-value="Knitting">Knitting</div>
+                <div class="tabs" data-filter="medium" data-value="Sewing">Sewing</div>
+                <div class="type-header"> Type </div>
+                <div class="tabs" data-filter="type" data-value="Top">Top</div>
+                <div class="tabs" data-filter="type" data-value="Bottom">Bottom</div>
+                <div class="tabs" data-filter="type" data-value="Accesory">Accesory</div>
+                <div class="tabs" data-filter="type" data-value="Plush">Plush</div>
+
+        </aside>
+        <!--main window that displays the patterns-->
+        <main class="main">
+            <div class="grid" id="pattern-grid">
+
+                <!--div set up to hold the pattern link, tags, and thumbnail image-->
+                <div class="pattern-card" data-medium="Crochet" data-type="Plush">
+                    <a href="https://www.ravelry.com/patterns/library/flappy-bat-critter" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="bat-plush-pattern.jpg" alt="Flappy Bat Critter thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Flappy Bat Critter by Bea Herce-Hagiwara</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Crochet</span>
+                            <span class="tag tag-type">Plush</span>
+                            <div class="rating">Intermediate | 4/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pattern-card" data-medium="Knitting" data-type="Accesory">
+                    <a href="https://www.ravelry.com/patterns/library/langue-de-chat" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="Langue_de_Chat.jpg" alt="Langue de Chat thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Langue de Chat by Yucca</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Knitting</span>
+                            <span class="tag tag-type">Accessory</span>
+                            <div class="rating">Beginner | 5/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pattern-card" data-medium="Sewing" data-type="Top">
+                    <a href="https://vikisews.com/vykrojki/shirts-t-shirts-blouses/alma-blouse/" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="Alma_blouse.jpg" alt="Alma Blouse Thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Alma Blouse by Vikisews</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Sewing</span>
+                            <span class="tag tag-type">Top</span>
+                            <div class="rating">Intermediate | 4/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pattern-card" data-medium="Sewing" data-type="Bottom">
+                    <a href="https://vikisews.com/vykrojki/pants-and-shorts/anne-trousers/" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="anne_pants.jpg" alt="Anne Pants thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Anne Pants by Vikisews</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Sewing</span>
+                            <span class="tag tag-type">Bottom</span>
+                            <div class="rating">Intermediate | 5/5★</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pattern-card" data-medium="Knitting" data-type="Accesory">
+                    <a href="https://www.purlsoho.com/create/2025/12/04/florette-cowl/" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="florette_cowl.jpg" alt="Florette Cowl thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Florette Cowl by Hiromi Glover</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Knitting</span>
+                            <span class="tag tag-type">Accesory</span>
+                            <div class="rating">Intermediate | 4/5★</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pattern-card" data-medium="Crochet" data-type="Accesory">
+                    <a href="https://www.patreon.com/SlavaCrochets/posts/eye-granny-pdf-141152669?collection=1903613" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="Eye_granny_square.JPG" alt="Eye Granny Square thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Eye Granny Square by Slava Crochets</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Crochet</span>
+                            <span class="tag tag-type">Accesory</span>
+                            <div class="rating">Intermediate | 5/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pattern-card" data-medium="Sewing" data-type="Top">
+                    <a href="https://www.etsy.com/listing/1589403887/pinafore-apron-pattern-for-women-dress?ref=yr_purchasessite" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="overall_skirt.jpg" alt="Overall Skirt thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Overall Skirt by AlphaPatterns</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Sewing</span>
+                            <span class="tag tag-type">Top</span>
+                            <div class="rating">Beginner | 5/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pattern-card" data-medium="Sewing" data-type="Plush">
+                    <a href="https://www.etsy.com/listing/1042495217/deer-plush-sewing-pattern-fawn-doll-with?ref=yr_purchasessite" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="deer_plush.jpg" alt="Deer Plush thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Deer Plush by GoodMoodToys</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Sewing</span>
+                            <span class="tag tag-type">Plush</span>
+                            <div class="rating">Intermediate | 3/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pattern-card" data-medium="Sewing" data-type="Top">
+                    <a href="https://www.etsy.com/listing/1565559420/hoodedcloakpattern-o-medievalfantasy?ref=yr_purchases" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="hooded_cloak.jpeg" alt="Hooded Cloak thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Hooded Cloak by AlphaPatterns</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Sewing</span>
+                            <span class="tag tag-type">Top</span>
+                            <div class="rating">Beginner | 5/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pattern-card" data-medium="Sewing" data-type="Bottom">
+                    <a href="https://www.etsy.com/listing/1712629389/sleep-lounge-set-sewing-pattern-o-cami?ref=yr_purchases" target="_blank" rel="noopener noreferrer" class="thumb-link">
+                        <img class="thumb-img" src="sleep_set.jpeg" alt="Sleep Set thumbnail">
+                    </a>
+                    <div class="pattern-meta">
+                        <div class="pattern-title">Sleep Set by SofiSewingPattern</div>
+                        <div class="pattern-tags">
+                            <span class="tag tag-medium">Sewing</span>
+                            <span class="tag tag-type">Top & Bottom</span>
+                            <div class="rating">Beginner | 4/5★</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
