@@ -6,7 +6,7 @@
 
 # Installation
   Files included are the photos used on the webpage as well as the .html, .js, and .css files.
-  Download the zip file containing all the files, and then you can double-click index.html to open the webpage on a local server.
+  Download the zip file containing all the files, extract them into a new folder. Open the folder with visual studio code then open the index.html file in your browser or with a live server to view the webpage.
 
 # Usage
   Users can click on patterns to see where they can purchase them and filter using the sidebar between pattern mediums and types.
